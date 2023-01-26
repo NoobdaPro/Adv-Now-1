@@ -4,7 +4,7 @@ then
   git clone https://github.com/NoobdaPro/Adv-EvaMaria-Now /Adv-EvaMaria-Now
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /EvaMaria
+  git clone $UPSTREAM_REPO /Adv-EvaMaria-Now
 fi
 cd /EvaMaria
 pip3 install -U -r requirements.txt
